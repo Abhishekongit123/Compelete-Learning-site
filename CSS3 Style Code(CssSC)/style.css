@@ -1,0 +1,20 @@
+:root{
+  --cf-color:#575fcf;
+  --chfs:scale(1.05);
+}
+#cf:hover{
+	transition:0.2s linear;
+	transform: var(--chfs);
+}
+#cs:hover{
+	transition:0.2s linear;
+	transform: var(--chfs);
+}
+#cf h4{
+	color: var(--cf-color);
+
+}
+#cs h4{
+	color: var(--cf-color);
+
+}

@@ -1,0 +1,43 @@
+.hoverbox:hover{
+background-color:#c7ecee;
+border-radius: 10px;
+}
+.go{
+display: none;
+}
+.go:hover{
+background-color: #F8EFBA;
+border-radius: 12px;
+}
+.go:hover button{
+color:#1289A7;
+display: inline;
+}
+#outline:focus{
+box-shadow: none;
+}
+#write:focus{
+box-shadow:none;
+}
+#addme:hover{
+color:#44bd32;
+}
+#editfeedbackbtn:focus{
+	box-shadow: none;
+	color:#535c68;
+}
+#editfeedbackbtn:hover{
+	color:#B53471;
+}
+#hoverdive:hover{
+	transform:scale(1.02);
+	user-select: none;
+	box-shadow: 0px 0px 12px #b2bec3;
+	transition: 0.2s ease-in-out;
+}
+#imgiddd{
+	background:#ffa502;
+	color: #2f3542;
+	font-weight: bold;
+	
+}

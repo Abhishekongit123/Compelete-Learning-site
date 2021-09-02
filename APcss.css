@@ -1,0 +1,17 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color:#3d3d3d;
+}
+#header{
+	width: 82vw;
+	height: 12vh;
+	background-color: #ffda79;
+}
+#menus{
+	height: 80vh;
+	background-color: #ffda79;
+}

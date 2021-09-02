@@ -1,0 +1,9 @@
+#f:first-letter{
+	color:#222f3e;
+	font-size:4rem;
+	float: left;
+	display: block;
+	margin: 13px 8px 0 0;
+	line-height: 0.5;
+	font-weight: bold;
+}

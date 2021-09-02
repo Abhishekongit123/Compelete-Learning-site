@@ -1,0 +1,47 @@
+#blogm{
+	background-image:linear-gradient(to right,#0a3d62,#a29bfe);
+	border-radius: 13px;
+	font-family: 'Playfair Display', serif;
+}
+#r{
+	background: #00a8ff;
+	font-weight: bold;
+	color: black;
+}
+#l{
+	background: #00a8ff;
+	font-weight: bold;
+	color: black;
+}
+#l:focus{
+	box-shadow: none;
+	background:#c23616;
+	color: #dcdde1;
+}
+#r:focus{
+	box-shadow: none;
+	background:#4cd137;
+	color: #dcdde1;
+}
+#inkpen{
+	color:#1B1464;
+	font-size: 30px;
+}
+#boook{
+	color:#eb2f06;
+	font-size: 30px;
+}
+#bulb{
+	color:#FFC312;
+	font-size: 30px;
+}
+#bv{
+	background: #1e90ff;
+}
+#bv:hover{
+	background:#9AECDB;
+}
+#bv:focus{
+	box-shadow: none;
+	background:#F8EFBA;
+}

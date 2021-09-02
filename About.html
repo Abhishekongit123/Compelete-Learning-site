@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About page</title>
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Libre+Baskerville&family=Play&display=swap" rel="stylesheet">
+
+		<script>
+			$(document).ready(function() {
+				$('#hp').click(function() {
+                     location.replace("http://localhost/crud/Website-bootstrap4.php");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<header class="sticky-top p-2 bg-light" style="height: 8vh;">
+			<label class="float-left font-weight-bold" style="font-size: 23px;">Built concepts</label>
+			<a  class="float-right btn btn-sm btn-outline-light font-weight-bold ml-2"><i type="button" class="fas fa-cog text-dark" style="font-size: 22px;" data-toggle="modal" data-target="#replys"></i></a>
+		</header>
+		<div class="modal fade" id="replys">
+			<div class="modal-dialog modal-dialog-centered modal-sm">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="modal-header"style="background:#ffeaa7;">
+							<h5 class="font-weight-bold mx-auto mt-0" >General Settings</h5>
+						</div>
+						<i class="fas fa-palette mr-1 mt-2" style="color: #d63031;"></i><label class="font-weight-bold mt-2">Themes Settings</label><br>
+						    <p class="text-dark font-weight-bold"><input type="checkbox" name="dark" class="mr-2">Dark Mode</p>
+						    <p class="font-weight-bold" style="color: #1e3799;"><input type="checkbox" name="nav-blue" class="mr-2">Nave-Blue Mode</p>
+						<i class="fas fa-font mr-1" style="color:#6c5ce7;"></i><label class="font-weight-bold">Font Style</label>
+							<input  type="checkbox" id="switchdark">
+							<p class="font-weight-bold" style="font-family: 'Libre Baskerville', serif;"><input type="checkbox" name="Libre Baskervill" class="mr-2">Libre Baskerville</p>
+							<p class="font-weight-bold" style="font-family: 'Play', sans-serif;"><input type="checkbox" name="Play" class="mr-2">Play</p>
+							<p class="font-weight-bold" style="font-family: 'EB Garamond', serif;"><input type="checkbox" name="EB Garamond" class="mr-2">EB Garamond</p>	
+							<button class="mt-1 btn btn-sm btn-primary text-white font-weight-bold btn-block" type="submit">Continue</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid m-auto bg-white d-flex justify-content-center">
+			<div class="media border p-2 my-2" style="border-radius: 13px;">
+				<img class="mr-3" src="images/manoj.jpg" alt="Generic placeholder image" style="width: 60px; height: auto;border-radius: 10px;">
+				<div class="media-body">
+					<h5 class="mt-0">Engg. Abhishek Kumar<li style="list-style: none;"><label class="font-weight-bold">Profession:</label>Web-Developer,UI Designer</li></h5>
+					<p class="font-italic" style="font-size: 15px;">Hello Dear...., This web site is developed under all terms and condition.website is usefull every type of user/condiate who want to learn <strong> web-development </strong>.It is easy to use and handle because of its very confirtable <strong>UI interface</strong>.one more thing about website it gives you every day updates.</p>
+					<ul class="list-group">
+						<li style="list-style: none;" class="ml-2 mb-2 font-weight-bold font-italic">Team Members</li>
+						<li class="list-group-item rounded mb-1 font-weight-bold" style="background: #F8EFBA;"><a href="#!" style="text-decoration: none;" class="font-weight-bold text-warning">Mr. R.D Verma</a> (Jr.Engeener, Profession: Database Specialist)</li>
+						<li class="list-group-item rounded border font-weight-bold" style="background: #F8EFBA;"><a href="#!" class="font-weight-bold text-warning" style="text-decoration: none;">Miss. Arti Rao</a>(Jr.Designer, Profession: UI Specialist)</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid m-auto">
+			<div class="row d-flex justify-content-center p-3">
+				<div class="col-sm-6 p-3">
+					<h5 style="font-size: 17px;" class="text-dark">Services</h5>
+					<p style="font-size: 15px;">Our site services UI are so arranged and well organized which make user easer to use and so simple to understand.and this contain Languages,PDF downloads and Video Topic learning these are main services.</p><br>
+					
+					<h5 style="font-size: 17px;" class="text-dark">Internship</h5>
+					<p style="font-size: 15px;">Next Internship, our internship section if so smooth and easy to handle for users.there are two section first is learning and next is certifocation .<strong> Any certificate are provide after successfull complition of selected course.</strong><br>
+					There will be some payed and some free courses,for payed type user pay fixed amount.In payed type you will be provided <strong>study material and certificate</strong>.</p><br>
+					<h5 style="font-size: 17px;" class="text-dark">Question Page</h5>
+					<p style="font-size: 15px;">This is very important fearture in our website which give you an opportunity to ask question and get answer within 2days.Most important thing about this page is "Open Sourse". but remmember do not ask or comment pertional question otherwise your account ID will be block.</p><br>
+					<h5 style="font-size: 17px;" class="text-dark">Comment Box</h5>
+					<p style="font-size: 15px;">Our comment box section is so attractive UI and also very easy to use for users.we distribute all part of comment box by which complixcity is reduse.</p>
+				</div>
+				<div class="col-sm-5 p-3">
+					<h5 style="font-size: 17px;" class="text-dark">Join our community</h5>
+					<p style="font-size: 15px;">We are working with designers around the world to produce best-in-class typeface designs that are made for the web, and because we are open source, this means that we can release early access trials to our community for testing and feedback.</p><br>
+					<h5 style="font-size: 17px;" class="text-dark">Interested in helping us evolve?</h5>
+					<p style="font-size: 15px;">Pitch in and help us grow by signing up for user studies on languages,PDF downloasds, Intrenship, and more.</p><br>
+					<h5 style="font-size: 17px;" class="text-dark">Contact us on</h5>
+					<li style="list-style:none;"><a href="#!" style="text-decoration: none;color: #487eb0;">Facebook</a></li>
+					<li style="list-style: none;"><a href="#!" style="text-decoration: none;color: #487eb0;">Email</a></li>
+				</div>
+			</div>
+		</div>
+		<div class="container mt-3" style=" border-left-color:black;border-left-style: solid;font-size: 25px;font-family: 'Playfair Display', serif;">
+			Hope you will enjoy the services, Follow me on Facebook and  Signup to be the first to know when we add new updates and launch new services.
+			
+		</div>
+		<div class="container-sm mt-5 p-1 d-flex justify-content-center">
+			<input type="button" name="redir" value="BACK TO HOMEPAGE" class=" btn btn-sm btn-block btn-outline-secondary font-weight-bold text-danger" id="hp">
+		</div>
+		<footer class="bg-primary border border-top mt-4">
+			<small class="float-right text-muted my-3 mr-2"><a href="#!" style="text-decoration: none; color: black;">Terms &Condition</a></small>
+			<small class="float-right text-muted my-3 mr-2"><a href="#!" style="text-decoration: none; color: black;">Privacy</a></small>
+		</footer>
+	</body>
+</html>
